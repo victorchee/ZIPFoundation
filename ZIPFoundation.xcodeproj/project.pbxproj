@@ -206,6 +206,7 @@
 					};
 					"ZIPFoundation::ZIPFoundation" = {
 						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
 					};
 					"ZIPFoundation::ZIPFoundationTests" = {
 						LastSwiftMigration = 1020;
@@ -463,7 +464,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0.9.9;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_TESTABILITY = YES;
@@ -479,6 +483,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ZIPFoundation;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGET_NAME = ZIPFoundation;
 			};
@@ -488,7 +493,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0.9.9;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_TESTABILITY = YES;
@@ -505,6 +513,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ZIPFoundation;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGET_NAME = ZIPFoundation;
 			};
